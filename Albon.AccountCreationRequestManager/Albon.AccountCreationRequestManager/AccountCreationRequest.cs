@@ -11,7 +11,7 @@ namespace Albon.AccountCreationRequestManager
 
         public string PublicKey { get; set; }
 
-        public int ActivationCode { get; set; }
+        public int ValidationCode { get; set; }
 
         public AccountCreationRequest() { }
 
@@ -20,7 +20,7 @@ namespace Albon.AccountCreationRequestManager
             Id = Guid.NewGuid().ToString();
             EmailAddress = email;
             PublicKey = publicKey;
-            ActivationCode = new Random().Next(100000, 999999);
+            ValidationCode = new Random().Next(100000, 999999);
         }
     }
 }

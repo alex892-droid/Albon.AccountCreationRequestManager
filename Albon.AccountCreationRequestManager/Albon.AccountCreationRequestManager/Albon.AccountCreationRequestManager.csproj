@@ -5,12 +5,12 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
-    <Version>1.0.1</Version>
+    <Version>1.0.2</Version>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="Albon.ClientCommunicationManager" Version="1.0.2" />
-    <PackageReference Include="AttributeSharedKernel" Version="1.0.0" />
+    <PackageReference Include="AttributeSharedKernel" Version="1.0.1" />
   </ItemGroup>
 
 </Project>
